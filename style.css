@@ -1,0 +1,346 @@
+/* /rating.html, Picture of first person*/
+.pictureofcustomer1 {
+  width: 100%;
+}
+
+/* /rating.html, Picture of secound person*/
+.pictureofcustomer2 {
+  width: 100%;
+}
+
+/* /rating.html, Picture of third person*/
+.pictureofcustomer3 {
+  width: 100%;
+}
+
+/* /rating.html, Picture of norway flag under big picture*/
+.norwayflag {
+  width: 40px;
+  height: 42px;
+}
+
+/* /rating.html, Picture of french flag under big picture*/
+.franceflag {
+  width: 40px;
+  height: 42px;
+}
+
+/* /rating.html, Picture of japan flag under big picture*/
+.japanflag {
+  width: 40px;
+  height: 42px;
+}
+
+/* /rating.html, Banner on top of the page*/
+.ratingbanner {
+  width: 100%;
+  height200px;
+}
+
+/* /contact.html, Style for contact form*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1.5px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 17px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* /index.html, Background video*/
+#myVideo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  filter: opacity(90%);
+}
+
+/* /contact.html, Picture on left side next to contact form*/
+.cityimageclass {
+  width: 100%;
+  height: 500px;
+}
+
+/* /index.html, button*/
+#button1>button {
+  position: absolute;
+}
+
+/* /index.html, Big button in the middle of screen*/
+.textinsidebutton {
+  z-index: 10;
+  position: absolute;
+  border: 1px solid black;
+  right: 580px;
+  bottom: 312px;
+  background-color: grey;
+  padding: 10px;
+  filter: opacity(60%);
+  font-size: 18px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+/* /index.html, Video background div*/
+.parent {
+  width: 100%;
+  height: 100%;
+}
+
+/* /index.html, Navigation button, Top left*/
+#opennavbtn {
+  position: absolute;
+  z-index: 11;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+#start {
+  color: white;
+}
+
+/* /services.html,Simple,Advanced,Expert Text styling*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+/* /services.html,Text under Simple,Advanced,Expert*/
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.wrapper>div {
+  text-align: center;
+  margin: auto;
+  border: 2px solid black;
+  width: 20%;
+  background-image: url('pictureofsky.jpg');
+  height: 100%;
+}
+
+/* /services.html,Purchase buttons under paragraph*/
+#button {
+  width: 150px;
+  height: 40px;
+  border-style: ridge;
+  color: black;
+  background-color: white;
+  border: 3pt rounded black;
+}
+
+/* /about.html,Text on left side next to picture*/
+.abouttext>img {
+  height: 520px;
+  border-style: solid;
+}
+
+.abouttext {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.abouttext>img, div {
+  width: 100%;
+  margin: auto;
+}
+
+.right {
+  text-align: center;
+  font-style: oblique;
+}
+
+@media only screen and (max-width: 600px) {
+  .abouttext {
+    display: block;
+  }
+
+  .abouttext>img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    display: block;
+  }
+
+  .wrapper>div {
+    width: 100%;
+  }
+
+  /* /services.html, Big banner on top of page*/
+  .servicesbanner {
+    width: 100%;
+    height200px;
+  }
+
+  /* /about.html,Big banner on top of the page*/
+  .aboutbanner {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* /contact.html,Big banner on top of the page*/
+  .contactbanner {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* /contact.html,Picture next to left from the contact form */
+  .cityimageclass {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+/* /rating.html, Styling for pictures*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.column>img {
+  border: solid 3px black;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+/* /rating.html, Text under the name, bottom of page */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-style: oblique;
+}
